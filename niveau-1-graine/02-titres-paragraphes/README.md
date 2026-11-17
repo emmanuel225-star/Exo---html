@@ -39,14 +39,14 @@ Ouvrez `index.html` dans le navigateur **avant** de commencer : tout le texte es
 
 ## Critères de réussite
 
-- [ ] Il y a un seul `<h1>` dans la page.
-- [ ] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
-- [ ] Il y a 4 `<h2>` et 4 `<h3>`.
-- [ ] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
-- [ ] *Zea mays* est dans une balise `<i>`.
-- [ ] Il y a au moins deux `<strong>` et un `<em>`.
-- [ ] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
-- [ ] Le code est indenté et commenté.
+- [x] Il y a un seul `<h1>` dans la page.
+- [x] Les niveaux de titres se suivent sans saut : pas de `<h3>` directement après le `<h1>`.
+- [x] Il y a 4 `<h2>` et 4 `<h3>`.
+- [x] Plus aucun texte n'est « libre » dans le `<body>` : tout est dans une balise.
+- [x] *Zea mays* est dans une balise `<i>`.
+- [x] Il y a au moins deux `<strong>` et un `<em>`.
+- [x] `<br>` n'est utilisé qu'une seule fois, dans les crédits (et jamais pour « faire de l'espace »).
+- [x] Le code est indenté et commenté.
 
 ## Indices
 
@@ -93,9 +93,14 @@ Le `<br>` se place **à l'intérieur** du paragraphe, entre les deux lignes à s
 ## Questions de compréhension
 
 1. Pourquoi ne doit-il y avoir qu'un seul `<h1>` par page ? (Pensez aux moteurs de recherche.)
+parceque le h1 designe le titre le plus important , comme dans un moteur de recherche il met en valeur l'élément vers lequel l'on doit preter attention 
 2. Pourquoi ne faut-il pas choisir une balise de titre (`<h2>`, `<h3>`…) pour sa **taille** d'affichage ?
+Parce que les balises de titre servent à organiser le contenu selon une hiérarchie logique. Pour modifier la taille du texte, on utilise le CSS.
 3. Quelle est la différence entre `<strong>` et `<b>` ? Entre `<em>` et `<i>` ?
+<strong> indique qu'un texte est important, tandis que <b> le met simplement en gras.
+<em> indique une insistance sur un mot ou une phrase, tandis que <i> sert à distinguer un terme particulier, comme un nom scientifique.
 4. Que fait le navigateur quand il rencontre plusieurs espaces ou retours à la ligne dans le code ?
+Le navigateur réduit automatiquement les espaces et les retours à la ligne successifs à un seul espace visible. Pour forcer un retour à la ligne, on utilise la balise <br>.
 
 ## Lien avec le brief PlantEvo
 
