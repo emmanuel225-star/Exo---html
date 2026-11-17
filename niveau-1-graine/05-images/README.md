@@ -61,13 +61,13 @@ Les numéros correspondent aux commentaires `TODO` dans `index.html`.
 
 ## Critères de réussite
 
-- [ ] Les 4 images s'affichent.
-- [ ] Chaque `<img>` a un attribut `alt` utile (pas de « image de… », pas de nom de fichier).
-- [ ] Chaque `<img>` a un `width` et un `height` qui respectent les proportions (4 / 3).
-- [ ] Le chemin du maïs passe par le sous-dossier `cereales`.
-- [ ] La tomate est dans une `<figure>` avec une `<figcaption>`.
-- [ ] Un clic sur la mangue ouvre l'article Wikipédia.
-- [ ] Tous les chemins sont relatifs.
+- [x] Les 4 images s'affichent.
+- [x] Chaque `<img>` a un attribut `alt` utile (pas de « image de… », pas de nom de fichier).
+- [x] Chaque `<img>` a un `width` et un `height` qui respectent les proportions (4 / 3).
+- [x] Le chemin du maïs passe par le sous-dossier `cereales`.
+- [x] La tomate est dans une `<figure>` avec une `<figcaption>`.
+- [x] Un clic sur la mangue ouvre l'article Wikipédia.
+- [x] Tous les chemins sont relatifs.
 
 ## Indices
 
@@ -111,9 +111,14 @@ Comparez lettre par lettre :
 ## Questions de compréhension
 
 1. À quoi sert l'attribut `alt` ? Citez deux situations où il est utilisé.
+L'attribut alt fournit une description textuelle de l'image
+
 2. Pourquoi indiquer `width` et `height` alors que l'image s'affiche très bien sans ?
+Pour contrôler les dimensions de l'image et réserver son espace sur la page avant son chargement. Cela évite les déplacements inattendus du contenu.
 3. Quand doit-on écrire `alt=""` (vide) ?
+Lorsqu'une image est uniquement décorative et n'apporte aucune information utile.
 4. Quelle est la différence entre `<figcaption>` et `alt` ?
+
 
 ## Lien avec le brief PlantEvo
 
