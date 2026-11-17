@@ -83,12 +83,12 @@ Les numéros correspondent aux commentaires `TODO` dans les fichiers.
 
 ## Critères de réussite
 
-- [ ] Les 8 liens du tableau fonctionnent.
-- [ ] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
-- [ ] Le lien de retour de `pages/contact.html` utilise `../`.
-- [ ] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
-- [ ] Le lien e-mail commence par `mailto:`.
-- [ ] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
+- [x] Les 8 liens du tableau fonctionnent.
+- [x] Tous les liens internes utilisent des chemins **relatifs** (aucun `C:\…` ni `file:///…`).
+- [x] Le lien de retour de `pages/contact.html` utilise `../`.
+- [x] Le lien vers la FAO s'ouvre dans un nouvel onglet et contient `rel="noopener"`.
+- [x] Le lien e-mail commence par `mailto:`.
+- [x] Plus aucun lien « cliquez ici » : chaque texte de lien a du sens tout seul.
 
 ## Indices
 
@@ -124,9 +124,15 @@ C'est normal si aucun logiciel de messagerie n'est configuré sur votre ordinate
 ## Questions de compréhension
 
 1. Quelle est la différence entre un chemin relatif et une URL absolue ? Quand utilise-t-on l'un ou l'autre ?
+Chemin relatif : indique l'emplacement d'un fichier par rapport à la page actuelle. On l'utilise pour naviguer entre les pages d'un même site.
+URL absolue : indique l'adresse complète d'une ressource sur Internet. On l'utilise pour créer un lien vers un site externe.
 2. Que signifie `../` dans un chemin ?
+Cela signifie qu'on remonte d'un dossier dans l'arborescence des fichiers pour accéder à un autre fichier.
+
 3. Pourquoi faut-il éviter les espaces et les majuscules dans les noms de fichiers ?
+Pour éviter les erreurs de chemin, faciliter la compatibilité entre les systèmes et les serveurs et rendre les noms de fichiers plus simples à gérer.
 4. Pourquoi « cliquez ici » est-il un mauvais texte de lien ?
+Parce qu'il ne précise pas la destination du lien. Il est préférable d'utiliser un texte descriptif qui facilite la compréhension et améliore l'accessibilité du site web.
 
 ## Lien avec le brief PlantEvo
 
